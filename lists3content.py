@@ -3,6 +3,18 @@ import boto3
 # Initialize S3 client
 s3 = boto3.client('s3')
 
+"""
+#If your AWS CLI is not configure you can configure it as mentioned below 
+
+aws_access_key_id = <your access_key>
+aws_secret_access_key = <your secret_access>
+aws_region = <your aws region>
+
+s3 = boto3.client('s3', 
+                  aws_access_key_id=aws_access_key_id, 
+                  aws_secret_access_key=aws_secret_access_key,
+                  region_name=aws_region)
+"""
 # Replace 'bucket' with the name of your S3 bucket
 bucket_name = 'bucket'
 
