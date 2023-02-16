@@ -1,6 +1,16 @@
 #Here's an example script that uses Boto3 to retrieve and print detailed configuration information for an S3 bucket:
 
 import boto3
+"""
+#If your AWS CLI is not configure you can configure it as mentioned below 
+aws_access_key_id = <your access_key>
+aws_secret_access_key = <your secret_access>
+aws_region = <your aws region>
+s3 = boto3.client('s3', 
+                  aws_access_key_id=aws_access_key_id, 
+                  aws_secret_access_key=aws_secret_access_key,
+                  region_name=aws_region)
+"""
 
 # Specify your region and S3 bucket name
 region = 'us-west-2' #AWS region
