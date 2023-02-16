@@ -70,3 +70,16 @@ if response['PublicAccessBlockConfiguration']['IgnorePublicAcls']:
     print("Ignore public ACLs is enabled for the bucket.")
 if response['PublicAccessBlockConfiguration']['RestrictPublicBuckets']:
     print("Restrict public bucket policies is enabled for the bucket.")
+
+    
+"""
+This script retrieves and prints information about the following configuration settings for an S3 bucket:
+
+Website configuration: If the bucket has a website configuration, it prints the website endpoint URL, index document, and error document.
+Bucket policy: If the bucket has a policy, it prints the policy text.
+Lifecycle configuration: If the bucket has a lifecycle configuration, it prints the lifecycle rules.
+Versioning configuration: If the bucket has a versioning configuration, it prints whether versioning is enabled or not.
+Encryption configuration: If the bucket has an encryption configuration, it prints whether server-side encryption is enabled
+
+
+"""
