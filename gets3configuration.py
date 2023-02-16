@@ -73,7 +73,6 @@ if response['PublicAccessBlockConfiguration']['IgnorePublicAcls']:
 if response['PublicAccessBlockConfiguration']['RestrictPublicBuckets']:
     print("Restrict public bucket policies is enabled for the bucket.")
 
-    
 """
 This script retrieves and prints information about the following configuration settings for an S3 bucket:
 
