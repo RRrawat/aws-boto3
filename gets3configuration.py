@@ -3,8 +3,8 @@
 import boto3
 
 # Specify your region and S3 bucket name
-region = 'us-west-2'
-bucket_name = 'example-bucket-name'
+region = 'us-west-2' #AWS region
+bucket_name = 'example-bucket' #Bucket name 
 
 # Create an S3 client
 s3 = boto3.client('s3', region_name=region)
