@@ -1,3 +1,5 @@
+#Here's an example script that uses Boto3 to retrieve and print detailed configuration information for an S3 bucket:
+
 import boto3
 
 # Specify your region and S3 bucket name
