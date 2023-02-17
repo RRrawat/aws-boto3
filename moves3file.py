@@ -17,3 +17,11 @@ s3.copy_object(Bucket=bucket_name, CopySource=bucket_name+'/'+old_file_key, Key=
 s3.delete_object(Bucket=bucket_name, Key=old_file_key)
 
 print('File moved successfully!')
+
+"""
+In this example, replace your_bucket_name with the name of your S3 bucket, and replace path/to/old/file.txt and path/to/new/file.txt 
+with the path of the original file and the new location where you want to move the file, respectively.
+
+This script uses the boto3.client() method to create an S3 client, and then uses the copy_object() method to copy the file to the 
+new location and the delete_object() method to delete the file from the old location. Finally, it prints a message to confirm that the file was moved successfully.
+"""
