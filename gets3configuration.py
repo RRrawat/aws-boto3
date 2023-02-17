@@ -1,6 +1,7 @@
-#Here's an example script that uses Boto3 to retrieve and print detailed configuration information for an S3 bucket:
+#Here's an example script that uses Boto3 to retrieve and print detailed configuration information for an S3 bucket.
 
 import boto3
+
 """
 #If your AWS CLI is not configure you can configure it as mentioned below 
 aws_access_key_id = <your access_key>
