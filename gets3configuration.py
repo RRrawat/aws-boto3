@@ -92,6 +92,4 @@ Bucket policy: If the bucket has a policy, it prints the policy text.
 Lifecycle configuration: If the bucket has a lifecycle configuration, it prints the lifecycle rules.
 Versioning configuration: If the bucket has a versioning configuration, it prints whether versioning is enabled or not.
 Encryption configuration: If the bucket has an encryption configuration, it prints whether server-side encryption is enabled
-
-
 """
