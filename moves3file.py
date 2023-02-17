@@ -1,3 +1,5 @@
+#here's an example Python script using the Boto3 library to move a file from one folder to another folder in Amazon S3
+
 import boto3
 
 # Set the name of the S3 bucket and the file to move
