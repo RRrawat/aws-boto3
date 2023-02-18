@@ -1,3 +1,5 @@
+#You can use the boto3 library in Python to copy an S3 file from one bucket to another. Here's some sample code that should do the trick:
+
 import boto3
 
 # set up the S3 client
