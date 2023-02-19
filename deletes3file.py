@@ -17,5 +17,9 @@ print(f"File {file_name} deleted from S3 bucket {bucket_name}")
 
 
 """
-Make sure to install the boto3 library using pip before running this script. You'll also need to have AWS credentials set up on your system with permissions to delete objects in the specified S3 bucket.
+
+Make sure to install the boto3 library using pip before running this script. 
+You'll also need to have AWS credentials set up on your system with permissions 
+to delete objects in the specified S3 bucket.
+
 """
