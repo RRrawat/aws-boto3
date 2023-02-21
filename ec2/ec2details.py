@@ -29,5 +29,9 @@ for reservation in instances['Reservations']:
         print("-----------------------------------------")
 
  """
- This code will connect to the AWS account and retrieve information about all EC2 instances, including those that are stopped or terminated. It will then loop through each instance and print out a comprehensive set of details, such as the instance ID, type, IP addresses, AMI ID, subnet ID, VPC ID, security groups, IAM instance profile, availability zone, key pair name, block device mappings, state, tags, and launch time. You can modify the code to include or exclude specific details based on your needs.
+ This code will connect to the AWS account and retrieve information about all EC2 instances, including those that are stopped or terminated. 
+ It will then loop through each instance and print out a comprehensive set of details, such as the instance ID, type, IP addresses, AMI ID, 
+ subnet ID, VPC ID, security groups, IAM instance profile, availability zone, key pair name, block device mappings, state, tags, and launch time. 
+ You can modify the code to include or exclude specific details based on your needs.
+ 
  """
