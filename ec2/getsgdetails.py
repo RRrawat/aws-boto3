@@ -34,5 +34,6 @@ for rule in security_group['IpPermissionsEgress']:
 
     
 """
-You will need to replace the region_name and security_group_id variables with your own values. The script prints out the security group ID, VPC ID, description, and the inbound and outbound rules.
+You will need to replace the region_name and security_group_id variables with your own values. The script prints out the security group ID, VPC ID, description, 
+and the inbound and outbound rules.
 """
