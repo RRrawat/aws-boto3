@@ -2,7 +2,7 @@
 import boto3
 
 # Replace with your own region
-region_name = 'us-west-2'
+region_name = <aws region>
 
 # Replace with your own security group ID
 security_group_id = <your security_group_id>
