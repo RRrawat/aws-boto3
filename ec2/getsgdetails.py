@@ -31,3 +31,8 @@ for rule in security_group['IpPermissions']:
 print("Outbound rules:")
 for rule in security_group['IpPermissionsEgress']:
     print(f"\t{rule['IpProtocol']} from {rule['FromPort']} to {rule['ToPort']} to {rule['IpRanges'][0]['CidrIp']}")
+
+    
+"""
+You will need to replace the region_name and security_group_id variables with your own values. The script prints out the security group ID, VPC ID, description, and the inbound and outbound rules.
+"""
