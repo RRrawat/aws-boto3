@@ -5,7 +5,7 @@ import boto3
 region_name = 'us-west-2'
 
 # Replace with your own security group ID
-security_group_id = 'sg-0123456789abcdefg' #<your security_group_id>
+security_group_id = <your security_group_id>
 
 # Create a session with Boto3
 session = boto3.session.Session(region_name=region_name)
