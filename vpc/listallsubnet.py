@@ -3,7 +3,7 @@ import boto3
 
 # Enter your AWS access key ID and secret access key
 ACCESS_KEY = '<YOUR_ACCESS_KEY>'
-SECRET_KEY = 'YOUR_SECRET_KEY'
+SECRET_KEY = '<YOUR_SECRET_KEY>'
 
 # Enter the ID of your VPC
 VPC_ID = 'YOUR_VPC_ID'
