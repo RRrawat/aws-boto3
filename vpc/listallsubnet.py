@@ -46,3 +46,4 @@ print("Private subnets: ", private_subnets)
 print("Public subnets: ", public_subnets)
 
 #Make sure to replace the placeholders with your own values before running the script.
+#This script allows you to quickly get a list of private and public subnets in your VPC.
