@@ -44,3 +44,5 @@ for subnet in response['Subnets']:
 # Print the private and public subnet IDs
 print("Private subnets: ", private_subnets)
 print("Public subnets: ", public_subnets)
+
+#Make sure to replace the placeholders with your own values before running the script.
