@@ -51,7 +51,9 @@ print(f'Network ACL ID: {nacl_id}')
 print(f'Elastic IP ID: {eip_id}')
 print(f'NAT Gateway ID: {nat_id}')
 
+
 """
+
 In this script, we use the describe_* methods provided by the EC2 client to get information about the Internet Gateway, Route Table, 
 Network ACL, Elastic IP, and NAT Gateway associated with the specified VPC. We then extract the IDs of these resources from the response 
 objects and print them out to the console.
