@@ -24,8 +24,11 @@ for tag in vpc['Tags']:
 
     
     
+"""
 In this script, we first define the ID of the VPC we want to retrieve details for by setting the vpc_id variable to a string containing the VPC ID. We then create an EC2 client object and call the describe_vpcs() method with the VpcIds parameter set to a list containing the vpc_id variable. This will return a dictionary containing information about the specified VPC.
 
 We then extract the details we're interested in from the Vpcs list in the response dictionary and print them out. The details we're retrieving include the VPC ID, CIDR block, default status, state, DHCP options ID, instance tenancy, and any tags associated with the VPC.
 
 Note that you'll need to have the boto3 library installed and properly configured with your AWS credentials in order to run this script. Also, make sure to replace <vpc-id> with the actual ID of the VPC you want to retrieve details for.
+
+"""
