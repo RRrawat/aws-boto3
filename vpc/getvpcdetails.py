@@ -2,7 +2,7 @@
 import boto3
 
 # Replace <vpc-id> with the ID of the VPC you want to retrieve details for
-vpc_id = '<vpc-id>'
+vpc_id = '<your-vpc-id>'
 
 # Create an EC2 client
 ec2 = boto3.client('ec2')
