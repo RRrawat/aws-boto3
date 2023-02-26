@@ -2,6 +2,7 @@
 import boto3
 
 # Initialize the EC2 client
+
 ec2 = boto3.client('ec2')
 
 # Get all instances
