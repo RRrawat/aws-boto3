@@ -22,7 +22,8 @@ for reservation in response['Reservations']:
 print(ip_addresses)
 
 """
-This code will retrieve information about all running instances in your account and extract the public IP address of each instance. The IP addresses are then stored in a list called ip_addresses. You can modify this code to extract other information about your EC2 instances as well.
+This code will retrieve information about all running instances in your account and extract the public IP address of each instance. 
+The IP addresses are then stored in a list called ip_addresses. You can modify this code to extract other information about your EC2 instances as well.
 
 
 
