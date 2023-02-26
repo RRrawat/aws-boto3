@@ -1,8 +1,7 @@
 #here's a Python script using boto3 to get all the details of your EC2 instances:
 import boto3
 
-# Initialize the EC2 client
-
+# Initialize the EC2 client.
 ec2 = boto3.client('ec2')
 
 # Get all instances
@@ -11,6 +10,7 @@ instances = ec2.describe_instances()
 # Loop through instances and print details
 for reservation in instances['Reservations']:
     for instance in reservation['Instances']:
+        
         # Print instance details
         print("Instance ID: " + instance['InstanceId'])
         print("Instance Type: " + instance['InstanceType'])
