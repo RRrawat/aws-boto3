@@ -19,7 +19,7 @@ source_blob_name =  str("filename"+today+".csv") #file name in blob storage
 connect_str = #os.environ['CONNECTION_STRING'] 
 #AWS
 destination_bucket_name = <S3 Bucket Name>#os.environ["DEST_BUCKET_NAME"] 
-destination_object_key =  #str(os.environ["DEST_OBJECT_KEY"]+source_blob_name) 
+destination_object_key =  <S3 object key name>#str(os.environ["DEST_OBJECT_KEY"]+source_blob_name) 
 
 def copy_csv_file(source_container_name, source_blob_name, connect_str, destination_bucket_name, destination_object_key):
     try:
