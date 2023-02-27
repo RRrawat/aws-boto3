@@ -10,11 +10,12 @@ from io import BytesIO
 
 #get the current data
 today = date.today()
-yesterday_date = str(today - timedelta(days=1)) 
+#if you need day-1 day file
+#yesterday_date = str(today - timedelta(days=1)) 
 print(yesterday_date) 
 #azure_cred
 source_container_name = os.environ["CONTAINER_NAME"] 
-source_blob_name =  str("loyalty_fraud_report"+yesterday_date+".csv") 
+source_blob_name =  str("filename"+today+".csv") 
 connect_str = os.environ['CONNECTION_STRING'] 
 #AWS
 destination_bucket_name = os.environ["DEST_BUCKET_NAME"] 
