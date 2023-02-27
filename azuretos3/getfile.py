@@ -13,12 +13,12 @@ today = date.today()
 yesterday_date = str(today - timedelta(days=1)) 
 print(yesterday_date) 
 #azure_cred
-source_container_name = os.environ["CONTAINER_NAME"] #loyalty
+source_container_name = os.environ["CONTAINER_NAME"] 
 source_blob_name =  str("loyalty_fraud_report"+yesterday_date+".csv") 
 connect_str = os.environ['CONNECTION_STRING'] 
 #AWS
-destination_bucket_name = os.environ["DEST_BUCKET_NAME"] #"dev-mcd-resources"
-destination_object_key =  str(os.environ["DEST_OBJECT_KEY"]+source_blob_name) #"inbound/mcd_plexure/mcd_plexure_loyalty_fraud/"
+destination_bucket_name = os.environ["DEST_BUCKET_NAME"] 
+destination_object_key =  str(os.environ["DEST_OBJECT_KEY"]+source_blob_name) 
 
 def copy_csv_file(source_container_name, source_blob_name, connect_str, destination_bucket_name, destination_object_key):
     try:
