@@ -14,7 +14,7 @@ today = date.today()
 #yesterday_date = str(today - timedelta(days=1)) 
 print(yesterday_date) 
 #azure_cred
-source_container_name = #os.environ["CONTAINER_NAME"] 
+source_container_name = <Azure container name> #os.environ["CONTAINER_NAME"] 
 source_blob_name =  str("filename"+today+".csv") 
 connect_str = #os.environ['CONNECTION_STRING'] 
 #AWS
