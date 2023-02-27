@@ -15,7 +15,7 @@ today = date.today()
 print(yesterday_date) 
 #azure_cred
 source_container_name = <Azure container name> #os.environ["CONTAINER_NAME"] 
-source_blob_name =  str("filename"+today+".csv") 
+source_blob_name =  str("filename"+today+".csv") #file name in blob storage 
 connect_str = #os.environ['CONNECTION_STRING'] 
 #AWS
 destination_bucket_name = #os.environ["DEST_BUCKET_NAME"] 
