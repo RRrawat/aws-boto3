@@ -52,5 +52,8 @@ for cluster in ecs_response['clusterArns']:
         print("")
 
 """
-This code will list details of all running EC2 instances, RDS instances, and ECS clusters in the default region for your AWS account, along with their respective details. If you want to list details of other running services or for a specific region, you can create additional clients for those services and modify the API calls accordingly.
+This code will list details of all running EC2 instances, RDS instances, and ECS clusters in the default region for your AWS account, along with their 
+respective details. If you want to list details of other running services or for a specific region, you can create additional clients for those services
+and modify the API calls accordingly.
+
 """
