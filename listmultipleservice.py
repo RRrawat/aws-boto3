@@ -1,6 +1,8 @@
-#You can use the boto3 library to list all running services in an AWS account by calling the describe_instances method of the EC2 client. 
-#Here's an example Python script that does this:
+"""
+To list details of all running AWS services in an account using Python boto3, you can use a combination of several AWS service clients and API calls. 
+Here's an example script that demonstrates how to do this:
 
+"""
 import boto3
 
 # create an EC2 client
@@ -19,3 +21,5 @@ for reservation in response['Reservations']:
         print(f"State: {instance['State']['Name']}")
         print(f"Launch Time: {instance['LaunchTime']}")
         print("")
+
+        
