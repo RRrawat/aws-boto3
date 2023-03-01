@@ -5,6 +5,7 @@ import paramiko
 import os
 
 # Define the SFTP server details
+
 sftp_host = "sftp.example.com"
 sftp_port = 22
 sftp_username = "username"
@@ -12,10 +13,12 @@ sftp_password = "password"
 sftp_remote_path = "/path/to/remote/file.txt"
 
 # Define the S3 bucket details
+
 s3_bucket = "my-s3-bucket"
 s3_prefix = "sftp-files/"
 
 # Connect to the SFTP server
+
 transport = paramiko.Transport((sftp_host, sftp_port))
 transport.connect(username=sftp_username, password=sftp_password)
 sftp = transport.open_sftp()
