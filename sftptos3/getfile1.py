@@ -32,7 +32,9 @@ sftp.close()
 transport.close()
 
 """
-This code uses the paramiko library to set up an SFTP connection to download the file from the remote server. It then uses the boto3 library to set up an S3 connection and upload the file to the specified bucket and key.
+This code uses the paramiko library to set up an SFTP connection to download the file from the remote server. 
+It then uses the boto3 library to set up an S3 connection and upload the file to the specified bucket and key.
 
-Note that this code assumes that the EventBridge batch job is triggering this code and passing in any necessary arguments, such as the file path and bucket/key information. You may need to modify the code accordingly to handle these inputs.
+Note that this code assumes that the EventBridge batch job is triggering this code and passing in any necessary arguments, 
+such as the file path and bucket/key information. You may need to modify the code accordingly to handle these inputs.
 """
