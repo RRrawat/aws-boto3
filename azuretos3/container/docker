@@ -1,1 +1,13 @@
+FROM python:3.8
 
+# For installing any dependent packages use YUM provider to install/update
+#RUN apt-get update
+#RUN apt-get install -y procps
+RUN mkdir /opt/get_file
+COPY get_file/*.py  /opt/get_file/
+COPY requirements.txt /
+
+# Install the function's dependencies using file requirements.txt
+# from your project folder.
+RUN  pip3 install -r requirements.txt
+CMD python -u /opt/get_file/getdata.py
