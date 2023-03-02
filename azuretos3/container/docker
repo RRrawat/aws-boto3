@@ -3,6 +3,7 @@ FROM python:3.9
 # For installing any dependent packages use YUM provider to install/update
 #RUN apt-get update
 #RUN apt-get install -y procps
+
 RUN mkdir /opt/get_file
 COPY get_file/*.py  /opt/get_file/
 COPY requirements.txt /
