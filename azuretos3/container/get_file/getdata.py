@@ -12,11 +12,13 @@ from io import BytesIO
 today = date.today()
 yesterday_date = str(today - timedelta(days=1)) 
 print(yesterday_date) 
+
 #azure_cred
 source_container_name = os.environ["CONTAINER_NAME"] 
 #to get the yesterday's file
 source_blob_name =  str("loyalty_fraud_report"+yesterday_date+".csv") 
 connect_str = os.environ['CONNECTION_STRING'] 
+
 #AWS
 destination_bucket_name = os.environ["DEST_BUCKET_NAME"] 
 destination_object_key =  str(os.environ["DEST_OBJECT_KEY"]+source_blob_name) 
