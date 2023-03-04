@@ -1,7 +1,9 @@
 #To list all private and public subnets inside a VPC here is the python script in boto3
+
 import boto3
 
 # Enter your AWS access key ID and secret access key
+
 ACCESS_KEY = '<YOUR_ACCESS_KEY>'
 SECRET_KEY = '<YOUR_SECRET_KEY>'
 
