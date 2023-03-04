@@ -26,6 +26,8 @@ for reservation in ec2_response['Reservations']:
         print(f"EC2 State: {instance['State']['Name']}")
         print(f"EC2 Launch Time: {instance['LaunchTime']}")
         print("")
+        
+        
 
 # get a list of all running RDS instances
 rds_response = rds.describe_db_instances()
