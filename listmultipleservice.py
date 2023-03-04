@@ -7,6 +7,7 @@ Here's an example script that demonstrates how to do this:
 import boto3
 
 # create clients for each service you want to get information for
+
 ec2 = boto3.client('ec2')
 rds = boto3.client('rds')
 ecs = boto3.client('ecs')
