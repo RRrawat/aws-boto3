@@ -1,4 +1,4 @@
-#here's an example Python script that uses the boto3 library to retrieve details about all VPCs in your AWS account:
+#here's an example Python script that uses the boto3 library to retrieve details about all VPCs in your AWS account
 import boto3
 
 # Replace <vpc-id> with the ID of the VPC you want to retrieve details for
