@@ -10,3 +10,6 @@ ec2_client = boto3.client('ec2', aws_access_key_id='access_key', aws_secret_acce
 # Start the instance
 response = ec2_client.start_instances(InstanceIds=['instance_id'])
 print('Instance started:', response['StartingInstances'][0]['InstanceId'])
+
+
+#Note: Replace the access_key, secret_key, region_name, and instance_id with your own credentials and instance ID.
