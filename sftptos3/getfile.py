@@ -3,7 +3,7 @@ import boto3
 import paramiko
 import os
 
-# Define the SFTP server details
+#Define the SFTP server details
 sftp_host = "sftp.example.com"
 sftp_port = 22
 sftp_username = "username"
