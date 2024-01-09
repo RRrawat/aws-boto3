@@ -1,8 +1,9 @@
 #here's an example Python script using the Boto3 library to move a file from one folder to another folder in Amazon S3
 
 import boto3
+
 """
-#If your AWS CLI is not configure you can configure it as mentioned below 
+#If your AWS CLI is not configured you can configure it as mentioned below 
 aws_access_key_id = <your access_key>
 aws_secret_access_key = <your secret_access>
 aws_region = <your aws region>
@@ -11,6 +12,7 @@ s3 = boto3.client('s3',
                   aws_secret_access_key=aws_secret_access_key,
                   region_name=aws_region)
 """
+
 # Set the name of the S3 bucket and the file to move
 bucket_name = 'your_bucket_name'
 old_file_key = 'path/to/old/file.txt'
