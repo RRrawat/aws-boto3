@@ -2,8 +2,10 @@
 
 import boto3
 
+
 """
-#If your AWS CLI is not configure you can configure it as mentioned below 
+#If your AWS CLI is not configured you can configure it as mentioned below 
+
 aws_access_key_id = <your access_key>
 aws_secret_access_key = <your secret_access>
 aws_region = <your aws region>
