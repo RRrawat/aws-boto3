@@ -34,5 +34,4 @@ the VPC ID, CIDR block, default status, state, DHCP options ID, instance tenancy
 
 Note that you'll need to have the boto3 library installed and properly configured with your AWS credentials in order to run this script. 
 Also, make sure to replace <vpc-id> with the actual ID of the VPC you want to retrieve details for.
-
 """
